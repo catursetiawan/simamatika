@@ -6,7 +6,7 @@ body{
     background-color: #A1F7C9;
 }
 .container{
-    background-color: #FFFFFF;
+    background-color: wheat;
     width: 900px;
     margin: auto;
 }
@@ -16,17 +16,48 @@ body{
 }
 
 /*=============== nav ===============*/
+nav{
+    border-top: 3px #CED154 solid;
+    text-align: center;
+    /* position: relative; */
+}
 nav a{
     text-decoration: none;
     color: #FFFFFF;
+    display: block;
+    padding: 0 10px 0 10px;
+    background-color: #545E54;
 }
-nav li{
-    list-style: none;
-}
-nav{
-    border-top: 3px #CED154 solid;
-}
-nav ul{
+nav ul li{
+    display: inline-block;
     position: relative;
+}
+nav ul li ul li{
+    display: block;
+}
+nav ul li ul{
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav a:hover{
+    background-color: #368936;
+}
+
+
+/*=============== hero ===============*/
+.hero{
+    width: 700px;
+    height: 150px;
+    background-image: url(banner1.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
