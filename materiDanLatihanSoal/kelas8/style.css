@@ -54,7 +54,7 @@ nav a:hover{
 .hero{
     width: 70%;
     height: 200px;
-    background-image: url(gambar/banner1.png);
+    background-image: url(../../gambar/banner1.png);
     background-size: cover;
     background-position-x: center;
     background-position-y: center;

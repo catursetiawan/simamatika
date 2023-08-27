@@ -6,7 +6,7 @@ body{
     background-color: #A1F7C9;
 }
 .container{
-    background-color: rgb(239, 231, 215);
+    background-color: #efe7d7;
     width: 900px;
     margin: auto;
 }
@@ -54,7 +54,7 @@ nav a:hover{
 .hero{
     width: 70%;
     height: 200px;
-    background-image: url(gambar/banner1.png);
+    background-image: url(../../gambar/banner1.png);
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -62,6 +62,35 @@ nav a:hover{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: none;
+}
+
+/*=============== babContainer ===============*/
+.babContainer{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A1F7C9;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.materiSoal{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.babContainer .materiSoal div{
+    background-color: #545E54;
+    margin: 30px;
+    padding: 10px 25px;
+    border-radius: 5px; 
+}
+.babContainer .materiSoal a{
+    color: white;
 }
 
 
