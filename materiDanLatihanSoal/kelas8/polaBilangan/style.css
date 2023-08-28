@@ -78,30 +78,48 @@ nav a:hover{
     border-radius: 5px;
     box-sizing: border-box;
 }
+.bab h4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .materiSoal{
     display: flex;
     justify-content: center;
     margin: 30px;
 }
-.babContainer .materiSoal div{
+.babContainer .materiSoal a{
     background-color: #545E54;
     margin: 30px;
     padding: 10px 25px;
     border-radius: 5px; 
 }
+.babContainer .materiSoal a:hover{
+    background-color: #677067;
+}
 .babContainer .materiSoal a{
     color: white;
 }
 
+/*=============== topSeperate ===============*/
+.topSeperate{
+    width: 70%;
+    height: 3px;
+    background-color: #545E54;
+    margin: auto;
+}
 
 /*=============== main ===============*/
 .main{
-    min-height: calc(100vh - 68px - 59px - 200px); /*angka2 setelah vh didapat dr ukuran height dr head, banner image, dan height footer*/
+    width: 70%;
+    margin: auto;
+    min-height: calc(100vh - 68px - 59px - 230px); /*angka2 setelah vh didapat dr ukuran height dr head, banner image, dan height footer*/
+    /* background-color: #CED154; */
+    margin-bottom: 30px;
 }
-article{
+.babList{
     background-color: #FFFFFF;
     padding: 10px 30px 10px 30px;
-    width: 70%;
+    width: 100%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;

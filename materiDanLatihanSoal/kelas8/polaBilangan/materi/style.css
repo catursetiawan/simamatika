@@ -6,7 +6,7 @@ body{
     background-color: #A1F7C9;
 }
 .container{
-    background-color: rgb(239, 231, 215);
+    background-color: #efe7d7;
     width: 900px;
     margin: auto;
 }
@@ -62,22 +62,74 @@ nav a:hover{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: none;
 }
 
+/*=============== babContainer ===============*/
+.babContainer{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A1F7C9;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.bab h4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.materiSoal{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.babContainer .materiSoal a{
+    background-color: #545E54;
+    margin: 30px;
+    padding: 10px 25px;
+    border-radius: 5px; 
+}
+.babContainer .materiSoal a:hover{
+    background-color: #677067;
+}
+.babContainer .materiSoal a{
+    color: white;
+}
+
+/*=============== topSeperate ===============*/
+.topSeperate{
+    width: 70%;
+    height: 3px;
+    background-color: #545E54;
+    margin: auto;
+}
 
 /*=============== main ===============*/
 .main{
-    min-height: calc(100vh - 68px - 59px - 200px); /*angka2 setelah vh didapat dr ukuran height dr head, banner image, dan height footer*/
+    width: 70%;
+    margin: auto;
+    min-height: calc(100vh - 68px - 59px - 230px); /*angka2 setelah vh didapat dr ukuran height dr head, banner image, dan height footer*/
+    /* background-color: #CED154; */
+    margin-bottom: 30px;
 }
 .babList{
     background-color: #FFFFFF;
     padding: 10px 30px 10px 30px;
-    width: 70%;
+    width: 100%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
     border-radius: 5px;
+    display: none;
+}
+
+article p image :first-child{
+    margin: 50px;
 }
 
 
